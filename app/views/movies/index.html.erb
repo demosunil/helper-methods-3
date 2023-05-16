@@ -23,7 +23,9 @@
     <th>
       Description
     </th>
-
+     <th>
+      Released on
+    </th>
     <th>
       Created at
     </th>
@@ -49,7 +51,9 @@
     <td>
       <%= movie.description %>
     </td>
-
+    <td>
+      <%= movie.released_on %>
+    </td>
     <td>
       <%= time_ago_in_words(movie.created_at) %> ago
     </td>
